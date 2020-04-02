@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>Practica 6 js</title>
+</head>
+<body>
+    <script>
+        //PROGRAMA 1
+        var ALC=prompt('Este es el programa 1, presione ok para continuar...','');
+        var N1=parseInt(prompt('Ingrese la primera calificacion:',''));
+        var N2=parseInt(prompt('Ingrese la segunda calificacion:',''));
+        var N3=parseInt(prompt('Ingrese la tercera calificacion:',''));
+        var SMATORIA=parseInt(N1)+parseInt(N2)+parseInt(N3)/3;
+        var PROMEDIO=SMATORIA/3;
+
+        if (PROMEDIO>=7)
+        {
+          document.write('Promocionado');
+        }
+
+        //PROGRAMA 2
+        var ALC=prompt('Este es el programa 2, presione ok para continuar...','');
+        var clave1=prompt('Ingrese su clave de acceso:','');
+        var clave2=prompt('Ingrese su clave de acceso otra vez:','');
+        if(clave1==clave2){
+            document.write('acceso correcto');
+        }
+      </script>
+</body>
+</html>
